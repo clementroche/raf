@@ -1,0 +1,24 @@
+{
+  "name": "@clementroche/raf",
+  "version": "0.0.1",
+  "author": "clementroche",
+  "description": "This package implements a ticker using only one requestAnimationFrame",
+  "main": "raf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clementroche/raf.git"
+  },
+  "keywords": [
+    "ticker",
+    "raf",
+    "clock"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clementroche/raf/issues"
+  },
+  "homepage": "https://github.com/clementroche/raf#readme"
+}

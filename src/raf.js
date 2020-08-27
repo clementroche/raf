@@ -3,7 +3,7 @@ import Clock from './clock'
 // TODO : add pause/resume
 
 export default class Raf {
-  constructor(clock = new Clock(), fps = 60) {
+  constructor(fps = 60) {
     this.rafs = {}
     this.clock = clock
 
