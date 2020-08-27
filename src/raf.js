@@ -5,7 +5,7 @@ import Clock from './clock'
 export default class Raf {
   constructor(fps = 60) {
     this.rafs = {}
-    this.clock = clock
+    this.clock = new Clock()
 
     this.fps = fps
     this.latest = 0
