@@ -1,6 +1,6 @@
 {
   "name": "@clementroche/raf",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "clementroche",
   "description": "This package implements a ticker using only one requestAnimationFrame",
   "main": "dist/index.js",
