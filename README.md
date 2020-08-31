@@ -22,8 +22,8 @@ import RAF from '@clementroche/raf'
 const raf = new RAF(60)
 raf.add(
   'rafID', // id
-  function () {
-    console.log('tick')
+  function ({ time, deltaTime, lagSmoothing }) {
+    console.log('tick', time, deltaTime, lagSmoothing)
   }, // callback
   0 // index/priority
 )
